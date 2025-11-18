@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarik Tambang Pengetahuan (v2)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="player-panel player-1" id="player1-panel">
+        <div class="header p1">
+          <span class="question-text" id="p1-question">Memuat...</span>
+          <span class="score" id="p1-score">0x</span>
+        </div>
+        <div class="keypad" id="p1-keypad">
+          <button class="key" data-player="1" data-key="A" id="p1-option-A">
+            A
+          </button>
+          <button class="key" data-player="1" data-key="B" id="p1-option-B">
+            B
+          </button>
+          <button class="key" data-player="1" data-key="C" id="p1-option-C">
+            C
+          </button>
+          <button class="key" data-player="1" data-key="D" id="p1-option-D">
+            D
+          </button>
+          <button class="key" data-player="1" data-key="E" id="p1-option-E">
+            E
+          </button>
+        </div>
+      </div>
+
+      <div class="game-state">
+        <button class="theme-toggle" id="theme-toggle">☀️</button>
+        <h2>Tarik Tambang Pengetahuan</h2>
+
+        <div class="rope-wrapper">
+          <div class="rope-container" id="rope-container">
+            <div class="rope-track" id="rope-track"></div>
+          </div>
+          <div class="rope-marker" id="rope-marker"></div>
+        </div>
+
+        <p class="status-text" id="status-text">Posisi netral.</p>
+      </div>
+
+      <div class="player-panel player-2" id="player2-panel">
+        <div class="header p2">
+          <span class="question-text" id="p2-question">Memuat...</span>
+          <span class="score" id="p2-score">0x</span>
+        </div>
+        <div class="keypad" id="p2-keypad">
+          <button class="key" data-player="2" data-key="A" id="p2-option-A">
+            A
+          </button>
+          <button class="key" data-player="2" data-key="B" id="p2-option-B">
+            B
+          </button>
+          <button class="key" data-player="2" data-key="C" id="p2-option-C">
+            C
+          </button>
+          <button class="key" data-player="2" data-key="D" id="p2-option-D">
+            D
+          </button>
+          <button class="key" data-player="2" data-key="E" id="p2-option-E">
+            E
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="win-modal">
+      <div class="modal-content">
+        <h2 id="win-message"></h2>
+        <button id="reset-button">Main Lagi</button>
+      </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
