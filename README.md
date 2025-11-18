@@ -79,7 +79,7 @@ git clone https://github.com/haerul920/game-tarik-tambang-pengetahuan-umum.git
 
 # 2. Navigate to the foldercd brain-tug-of-war
 
-# 3. Open index.html# You can just double click index.html or serve it via Live Server
+# 3. Open index.html (You can just double click index.html or serve it via Live Server)
 ```
 
 ## 📂 Project Structure
